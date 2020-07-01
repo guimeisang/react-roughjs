@@ -1,0 +1,23 @@
+{
+  "projectName": "react-roughjs",
+  "projectOwner": "GM",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "GM",
+      "name": "GM",
+      "avatar_url": "./123.jpg",
+      "profile": "",
+      "contributions": [
+        "code",
+        "doc",
+        "test",
+        "example"
+      ]
+    }
+  ]
+}
