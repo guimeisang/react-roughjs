@@ -18,7 +18,6 @@ class ReactRough extends Component {
 	}
 
 	render() {
-		const { height, width, render } = this.props
 		return <div />
 	}
 }

@@ -74,6 +74,10 @@ render(
 )
 ```
 
+## 疑问
+
+1. 我看到 example/basic 里面就已经有 alpha 的版本；比较好奇是怎么做到的？
+
 ## License
 
 MIT
