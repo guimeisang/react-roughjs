@@ -41,6 +41,7 @@
 		"eslint-config-synacor": "^3.0.0",
 		"gzip-size-cli": "^2.1.0",
 		"jest": "^22.0.4",
+		"jsdom": "^16.2.2",
 		"npm-run-all": "^4.1.2",
 		"prop-types": "^15.6.0",
 		"react": "^16.2.0",
@@ -48,11 +49,10 @@
 		"rollup": "^0.53.0",
 		"rollup-plugin-babel": "^3.0.3",
 		"strip-json-comments": "^2.0.1",
-		"uglifyjs": "^2.4.11",
-		"jsdom": "^16.2.2"
+		"uglifyjs": "^2.4.11"
 	},
 	"dependencies": {
 		"create-react-context": "^0.2.1",
-		"roughjs": "^3.0.0"
+		"roughjs": "^4.3.1"
 	}
 }
