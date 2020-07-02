@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
-import rough from 'roughjs'
+import rough from 'roughjs/bundled/rough.esm.js' 
 
 class ReactRough extends Component {
 	componentDidMount() {
