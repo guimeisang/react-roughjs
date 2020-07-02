@@ -6,6 +6,7 @@
 				"modules": false
 			}
 		],
+		"stage-2", // ES6中解构赋值的一种拓展，因为ES6只支持对数组的解构赋值，对对象不支持；
 		"react"
 	],
 	"plugins": ["babel-plugin-transform-class-properties"]

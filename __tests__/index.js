@@ -9,9 +9,9 @@ import ReactRough from '../src'
 // Setup Enzyme Adapter
 configure({ adapter: new Adapter() })
 
-// describe('ReactRough', () => {
-// 	test('renders correctly', () => {
-// 		const component = mount(<ReactRough />)
-// 		expect(EnzymeToJSON(component).toMatchSnapshot())
-// 	})
-// })
+describe('ReactRough', () => {
+	test('renders correctly', () => {
+		const component = mount(<ReactRough />)
+		expect(component).toMatchSnapshot()
+	})
+})
