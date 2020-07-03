@@ -4,11 +4,11 @@ let pkg = require('./package.json')
 
 export default {
 	input: 'src/index.js',
-	external: ['react'],
+	external: ['react', 'prop-types'],
 	plugins: [
 		babel({
 			exclude: 'node_modules/**',
-			plugins: ['external-helpers'],
+			plugins: ['transform-react-remove-prop-types'],
 		}),
 	],
 	output: [
@@ -23,12 +23,14 @@ export default {
 			sourcemap: true,
 		},
 		{
-			name: 'pimg',
+			name: 'react-rough',
 			file: pkg.umd,
 			format: 'umd',
 			sourcemap: true,
 			globals: {
 				react: 'react',
+				roughjs: 'roughjs',
+				'prop-types': 'prop-types',
 			},
 		},
 	],
